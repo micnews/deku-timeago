@@ -1,7 +1,7 @@
 {
   "name": "deku-timeago",
   "version": "0.0.0",
-  "description": "",
+  "description": "Deku component to display date as relative time.",
   "main": "index.js",
   "scripts": {
     "test": "npm run lint && babel-tape-runner test.js",
