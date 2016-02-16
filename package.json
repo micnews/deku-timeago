@@ -1,0 +1,41 @@
+{
+  "name": "deku-timeago",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && babel-tape-runner test.js",
+    "lint": "semistandard | snazzy",
+    "prepublish": "babel index.js --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micnews/deku-timeago.git"
+  },
+  "keywords": [
+    "deku",
+    "timeago",
+    "date"
+  ],
+  "author": "mic.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/micnews/deku-timeago/issues"
+  },
+  "homepage": "https://github.com/micnews/deku-timeago#readme",
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-tape-runner": "^2.0.0",
+    "semistandard": "^7.0.5",
+    "snazzy": "^3.0.0"
+  },
+  "browserify": {
+    "transform": "babelify"
+  },
+  "dependencies": {
+    "babel-plugin-transform-react-jsx": "^6.5.2",
+    "babel-preset-es2015": "^6.5.0",
+    "babelify": "^7.2.0",
+    "magic-virtual-element": "^1.0.6"
+  }
+}
