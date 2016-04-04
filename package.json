@@ -1,6 +1,6 @@
 {
   "name": "deku-timeago",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Deku component to display date as relative time.",
   "main": "dist/index.js",
   "scripts": {
