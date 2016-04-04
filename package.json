@@ -33,9 +33,6 @@
     "snazzy": "^2.0.1",
     "tape": "^4.4.0"
   },
-  "browserify": {
-    "transform": "babelify"
-  },
   "dependencies": {
     "magic-virtual-element": "^1.0.6",
     "time-ago": "^0.1.0"
